@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Style.css" rel="stylesheet" />
+    <link href="~/Content/ddlevelsmenu-topbar.css" rel="stylesheet" />
+    <link href="~/Content/ddlevelsmenu-base.css" rel="stylesheet" />
+    <script src="~/Scripts/ddlevelsmenu.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <img src="https://www.hutech.edu.vn/images/logo/HUTECH25.png" />
+        </div>
+        <div class="menu">
+            <div id="ddtopmenubar" class="mattblackmenu">
+                <ul>
+                    <li><a href="http://www.dynamicdrive.com">Tổ chức</a></li>
+                    <li><a href="http://www.dynamicdrive.com/new.htm" rel="ddsubmenu1">Hoạt Động</a></li>
+                    <li><a href="http://www.dynamicdrive.com/forums/">Nộp chứng nhận</a></li>
+                    <li><a href="https://www.hutech.edu.vn/homepage/lien-he/so-do-den-truong/" rel="ddsubmenu3">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-left">
+            @RenderBody()
+            </div>
+            <div class="content-right"></div>
+        </div>
+        <div class="content-bottom">
+        </div>
+        <div class="footer">
+            <p style="color:white;">Trụ sở: 475A Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM</p>
+            <p style="color:white;">Cơ sở 475B: 475B Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM</p>
+            <p style="color:white;">Cơ sở Ung Văn Khiêm: 31/36 Ung Văn Khiêm, P.25, Q.Bình Thạnh, TP.HCM</p>
+            <p style="color:white;">ĐT: (028) 5445 7777 - Fax: (028) 5445 4444 - Email: hutech@hutech.edu.vn</p>
+        </div>
+    </div>
+</body>
+</html>

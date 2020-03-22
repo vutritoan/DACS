@@ -1,0 +1,9 @@
+﻿body {background:#ffd800 ; padding:0;margin:0}
+.main {width:998px;padding:0 1px; background:#ffd800;min-height: 600px;margin:0 auto}
+.head {height:106px; background:#ffffff;width:999px;}
+.menu {height:30px; background:#0026ff;width:998px;margin:0;padding:0;}
+.content {width:998px;min-height:700px;background:#ffffff;}
+.content-left {float:left; width:740px;min-height:300px;background:#808080;}
+.content-right{float:right; width:250px;min-height: 300px;background:#ff0000;}
+.content-bottom{height:300px;width:998px;background:#;}
+.footer {min-height:150px;width:998px;background:#0026ff;}
